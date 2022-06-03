@@ -1,0 +1,66 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    margin-left: 50px;
+    /* margin-top: 20px; */
+    padding-top: 30px;
+}
+.navbar-nav > li{
+    font-weight: 400;
+    size: 50px;
+    padding-left:20px;
+    padding-right:10px;
+  }
+.sign-btn{
+    color: #fff;
+    width: 100px;
+    height: 40px;
+    left: 1201px;
+    top: 25px;
+    background: #21B573;
+    border-radius: 33px;
+    border: none;
+
+}
+.row{
+    position: relative;
+}
+.top-bg-part{
+width: 1360px;
+height: 655px;
+margin: 0px;
+background-color:  #F0FFF0;
+}
+.top-image img{
+    position: absolute;
+    width: 554px;
+    height: 346px;
+    left: 520px; 
+    margin-top: 100px;
+}
+.start-btn{
+color: #fff;
+width: 153px;
+height: 43px;
+left: 205px;
+top: 470px;
+background: #21B573;
+border-radius: 33px;
+border: none;
+}
+.top-text{
+
+   position:absolute;
+   width: 380px;
+   margin-top: 160px;
+   margin-left: 70px;
+   font-style: normal;
+
+}
+.top-text > h1{
+    font-weight: 700;
+    font-style: normal;
+    
+}
