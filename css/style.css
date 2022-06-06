@@ -2,6 +2,9 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+.container{
+  margin-bottom:100px ;
+}
 .navbar{
     margin-left: 50px;
     /* margin-top: 20px; */
@@ -78,10 +81,10 @@ border: none;
   margin-top: 25px;
   margin-right:25px ;
   margin-left: 10px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   border: none;
   background-color:  #F8FFFB;
-  transition: all ease .1s;
+  transition: all .1s;
 }
 .icon-box-1:hover{
   transform: scale(1.1);
@@ -96,4 +99,46 @@ border: none;
   margin-left: 35px;
   margin-bottom: 5px;
 
+}
+/* online course part */
+.card{
+  padding: 15px;
+  width: 370px;
+  height: 483px;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 18px;
+
+}
+.card-body{
+  margin-left:-8px ;
+}
+.middle-text{
+  text-align: center;
+  padding-bottom: 30px;
+  font-weight: 700;
+}
+.card-text{
+  color: #585859;
+  font-size: medium;
+
+}
+.card-footer{
+  background-color: #fff;
+  border: none;
+  color: #585859;
+  font-weight: 500;
+  font-size: 16px;
+  margin-left: -15px;
+  
+}
+.card-footer img{
+ width: 27px;
+ height: 27px;
+ margin-right: 5px;
+ 
+}
+.footer-text{
+  /* padding: 5px;
+  align-self:-15px; */
 }
